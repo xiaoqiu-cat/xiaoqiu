@@ -1,0 +1,56 @@
+@import url('../common/reset.css');
+@import url('../common/common.css');
+.container .content .banner {
+  height: 300px;
+  width: 100vw;
+  background: #2a2a2a;
+}
+.container .content .banner .banner-center {
+  width: 1086px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.container .content .banner .banner-center .banner_desc {
+  color: #ffffff;
+  width: 400px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-left: 150px;
+}
+.container .content .banner .banner-center .banner_desc > p {
+  font-size: 30px;
+}
+.container .content .banner .banner-center .banner_desc > div {
+  margin-top: 30px;
+  letter-spacing: 1.5px;
+}
+.container .content .banner .banner-center ul {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.container .content .banner .banner-center ul li {
+  position: absolute;
+  z-index: 0;
+  opacity: 0;
+  transition: all 2.5s linear;
+  padding: 10px;
+}
+.container .content .banner .banner-center ul li img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  background: #ffffff;
+  padding: 10px;
+}
+.container .content .banner .banner-center ul li:nth-child(1) {
+  z-index: 1;
+  opacity: 1;
+}

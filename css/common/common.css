@@ -1,0 +1,75 @@
+ /* 头部样式 */
+ .container .header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .header .header-content {
+    width: 1086px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .header .header-content .logo {
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+  }
+  .container .header .header-content .logo > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .container .header .header-content .logo > span {
+    display: block;
+    font-size: 14px;
+    line-height: 60px;
+    margin-left: 10px;
+  }
+  .container .header .header-content nav > ul {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+  }
+  .container .header .header-content nav > ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #2a2a2a;
+  }
+  .container .header .header-content nav > ul > li:hover {
+    color: #4395ff;
+  }
+
+   /* 底部样式 */
+  .container .footer {
+    height: 100px;
+    border-top: 1px solid #a09797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #2a2a2a;
+    color: #fff;
+  }
+  .container .footer span:nth-of-type(2) {
+    margin: 0 5px;
+  }
+  .container .footer a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+  .temp{
+    width: 100%;
+    display: block;
+    padding: 100px 0;
+    display: flex;        
+    justify-content: center;
+    font-size: 50px;
+    font: bold 50px/100% "微软雅黑";
+}
