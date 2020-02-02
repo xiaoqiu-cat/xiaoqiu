@@ -50,7 +50,7 @@ const nav_switch = () =>{
                 url = '/view/music.html'
                 break
             case '关于我' : 
-                url = '/view/about'
+                url = '/view/about.html'
                 break
             case '留言' : 
                 url = '/view/message.html'
