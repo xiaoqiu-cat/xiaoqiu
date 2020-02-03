@@ -1,0 +1,65 @@
+@import url('../common/reset.css');
+@import url('../common/common.css');
+.container .content .banner {
+  height: 180px;
+  width: 100vw;
+  background: #2a2a2a;
+  display: flex;
+  align-items: center;
+}
+.container .content .banner .banner-center {
+  width: 1068px;
+  margin: 0 auto;
+  display: flex;
+}
+.container .content .banner .banner-center .title-box {
+  width: 600px;
+  margin-right: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .content .banner .banner-center .title-box > h1 {
+  font-size: 24px;
+  color: #ece3e3;
+}
+.container .content .banner .banner-center .title-box > p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #bebebe;
+}
+.container .content .banner .banner-center .title-box .title-wrapper {
+  color: #bebebe;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.container .content .banner .banner-center .title-box .title-wrapper > span:hover {
+  color: yellow;
+}
+.container .content .banner .banner-center .article-img {
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.container .content .banner .banner-center .article-img > img {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 7px;
+}
+.container .content .article-content {
+  width: 1068px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container .content .article-content .detail-left {
+  text-indent: 30px;
+  width: 840px;
+}
+.container .content .article-content .detail-right {
+  width: 200px;
+}

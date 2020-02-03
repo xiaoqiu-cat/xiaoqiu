@@ -54,6 +54,7 @@
     font-size: 14px;
     background-color: #2a2a2a;
     color: #fff;
+    margin-top: 250px;
   }
   .container .footer span:nth-of-type(2) {
     margin: 0 5px;
@@ -64,12 +65,53 @@
   }
 
 
-  .temp{
-    width: 100%;
-    display: block;
-    padding: 100px 0;
-    display: flex;        
-    justify-content: center;
-    font-size: 50px;
-    font: bold 50px/100% "微软雅黑";
+/* 
+    文章列表 
+*/
+.container .content .article-wrapper {
+  width: 1024px;
+  margin: 50px auto;
+}
+.container .content .article-wrapper .list > li dl {
+  display: flex;
+}
+.container .content .article-wrapper .list > li dl dt {
+  border: 1px solid green;
+  margin-right: 30px;
+  padding: 5px;
+  height: 120px;
+}
+.container .content .article-wrapper .list > li dl dt img {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+}
+.container .content .article-wrapper .list > li dl dd span {
+  display: block;
+}
+.container .content .article-wrapper .list > li dl dd span:nth-child(1) {
+  font-size: 25px;
+  cursor: pointer;
+}
+.container .content .article-wrapper .list > li dl dd span:nth-child(1):hover {
+  color: green;
+}
+.container .content .article-wrapper .list > li dl dd span:nth-child(2) {
+  font-size: 15px;
+  text-indent: 25px;
+  line-height: 25px;
+  width: 700px;
+  margin: 15px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.container .content .article-wrapper .list > li dl dd span:nth-child(3) {
+  cursor: pointer;
+  text-align: right;
+}
+.container .content .article-wrapper .list > li dl dd span:nth-child(3):hover {
+  color: green;
 }

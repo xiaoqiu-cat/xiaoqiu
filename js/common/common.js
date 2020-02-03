@@ -58,7 +58,7 @@ const nav_switch = () =>{
             default :
                 url = '/index.html'
         }
-        window.location.href = url
+        window.open(url)
 
     })
 }
@@ -77,7 +77,12 @@ const nav_select_show = () =>{
         }
     }
 }
-
+const to_article_detail = () =>{
+    const list = document.getElementsByClassName('list')[0]
+    list.addEventListener('click',function(e){
+        window.open('/view/article?id='+'SDKFJSLDFLSDHFJORJFLISDHFJIJ')
+    })
+}
 
 
 // 把共同的头部和底部 提取出来。
@@ -89,6 +94,9 @@ nav_switch()
 
 // 显示选中 tag
 nav_select_show()
+
+// 跳转到 文章详情
+to_article_detail()
 
 
 
