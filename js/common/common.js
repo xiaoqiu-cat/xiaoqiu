@@ -80,6 +80,7 @@ const nav_select_show = () =>{
 const to_article_detail = () =>{
     const list = document.getElementsByClassName('list')[0]
     list.addEventListener('click',function(e){
+        return
         window.open('/view/article.html?id='+'SDKFJSLDFLSDHFJORJFLISDHFJIJ')
     })
 }

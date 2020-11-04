@@ -44,6 +44,18 @@
     color: #4395ff;
   }
 
+  /*页面布局样式*/
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height:100vh;    
+  }
+  .container .content{
+    flex: 1;
+  }
+
+
    /* 底部样式 */
   .container .footer {
     height: 100px;
